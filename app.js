@@ -1,5 +1,6 @@
 //Load all required modules 
-let app = require("express")();
+let express = require("express")
+let app = express();
 let cors = require('cors');
 let bodyParser = require("body-parser");
 let mongoose = require("mongoose");
